@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Club Deportivo Digital</title>
+
+<style>
+body {
+    background-color: #edf4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #263238;
+}
+
+header {
+    background-color: #123b5d;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #087e8b;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+main {
+    margin: 25px;
+}
+
+h2 {
+    color: #087e8b;
+    border-bottom: 2px solid #087e8b;
+    padding-bottom: 8px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.caja {
+    background-color: white;
+    padding: 22px;
+    margin: 22px 0;
+    border: 2px solid #c5d8e5;
+    border-radius: 12px;
+}
+
+.deportes {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.deporte {
+    background-color: #e1f2f5;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 180px;
+}
+
+ul {
+    line-height: 1.9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #8daab9;
+    padding: 13px;
+    text-align: center;
+}
+
+th {
+    background-color: #087e8b;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #edf4f8;
+}
+
+.hidratacion {
+    background-color: #d9f5e5;
+    border-left: 7px solid #159957;
+}
+
+.ia {
+    background-color: #fff1d6;
+    border-left: 7px solid #e6a23c;
+}
+
+.pie {
+    background-color: #123b5d;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    margin-top: 30px;
+}
+
+strong {
+    color: #087e8b;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 12px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>CLUB DEPORTIVO DIGITAL</h1>
+    <p>Deporte, tecnología y vida saludable</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#deportes">Deportes</a>
+    <a href="#atletas">Atletas</a>
+    <a href="#consejos">Salud</a>
+    <a href="#tecnologia">Tecnología</a>
+</nav>
+
+<main>
+
+<section class="caja" id="inicio">
+    <h2>Bienvenidos a nuestro portal deportivo</h2>
+
+    <p>
+        Club Deportivo Digital es un espacio dedicado al deporte,
+        la actividad física, la salud y la tecnología. Nuestro objetivo
+        es compartir información útil para que las personas conozcan
+        diferentes disciplinas deportivas, aprendan a cuidar su cuerpo
+        y descubran herramientas digitales que pueden acompañarlas
+        durante sus entrenamientos.
+    </p>
+
+    <p>
+        El deporte ayuda a mejorar la resistencia, la coordinación
+        y la fuerza. También favorece el trabajo en equipo, la
+        responsabilidad, el respeto y la constancia.
+    </p>
+</section>
+
+<section class="caja" id="deportes">
+    <h2>Conocé diferentes deportes</h2>
+
+    <div class="deportes">
+        <div class="deporte">
+            <h3>⚽ Fútbol</h3>
+            <p>
+                Es un deporte de equipo que requiere coordinación,
+                velocidad, resistencia y cooperación entre los jugadores.
+            </p>
+        </div>
+
+        <div class="deporte">
+            <h3>🏃 Atletismo</h3>
+            <p>
+                Incluye carreras, saltos y lanzamientos. Permite
+                desarrollar distintas habilidades físicas.
+            </p>
+        </div>
+
+        <div class="deporte">
+            <h3>🚴 Ciclismo</h3>
+            <p>
+                Se practica con bicicleta y ayuda a trabajar la
+                resistencia y la coordinación.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="caja">
+    <h2>Aplicaciones y dispositivos deportivos</h2>
+
+    <p>
+        La tecnología permite registrar actividades físicas,
+        consultar recorridos y observar algunos datos del entrenamiento.
+    </p>
+
+    <ul>
+        <li>
+            <strong>Reloj inteligente:</strong>
+            registra datos de actividad física y puede medir la frecuencia cardíaca.
+        </li>
+
+        <li>
+            <strong>Google Fit:</strong>
+            permite registrar diferentes actividades y consultar datos
+            relacionados con el movimiento.
+        </li>
+
+        <li>
+            <strong>Strava:</strong>
+            permite registrar recorridos y actividades como correr o andar en bicicleta.
+        </li>
+    </ul>
+
+    <p>
+        Estas herramientas pueden ayudar a organizar los entrenamientos,
+        aunque sus mediciones no siempre son exactas.
+    </p>
+</section>
+
+<section class="caja" id="atletas">
+    <h2>Tabla de tiempos de los atletas</h2>
+
+    <p>
+        A continuación se presenta un ejemplo de registro de tiempos
+        en una carrera de 100 metros.
+    </p>
+
+    <table>
+        <tr>
+            <th>Atleta</th>
+            <th>Disciplina</th>
+            <th>Distancia</th>
+            <th>Tiempo</th>
+        </tr>
+
+        <tr>
+            <td>Lucía Pérez</td>
+            <td>Atletismo</td>
+            <td>100 metros</td>
+            <td>12,8 segundos</td>
+        </tr>
+
+        <tr>
+            <td>Mateo Gómez</td>
+            <td>Atletismo</td>
+            <td>100 metros</td>
+            <td>11,9 segundos</td>
+        </tr>
+    </table>
+
+    <p>
+        <em>Nota: los nombres y los tiempos son ficticios y se utilizan
+        solamente como ejemplo para esta actividad.</em>
+    </p>
+</section>
+
+<section class="caja hidratacion" id="consejos">
+    <h2>💧 Consejos de hidratación</h2>
+
+    <p>
+        Mantener una buena hidratación es importante para el funcionamiento
+        del organismo, especialmente durante la actividad física.
+    </p>
+
+    <ul>
+        <li>Tomá agua antes, durante y después de entrenar.</li>
+        <li>No esperes a tener mucha sed para beber agua.</li>
+        <li>En los días calurosos, prestá atención a la hidratación.</li>
+        <li>Después de hacer ejercicio, descansá y recuperá energías.</li>
+    </ul>
+</section>
+
+<section class="caja">
+    <h2>Beneficios de la actividad física</h2>
+
+    <p>
+        Realizar actividad física de manera regular puede ayudar a
+        fortalecer los músculos y los huesos, mejorar la resistencia
+        y favorecer el descanso. También puede contribuir al bienestar
+        emocional y ofrecer oportunidades para compartir tiempo con otras personas.
+    </p>
+
+    <p>
+        Lo importante es elegir actividades que nos gusten, respetar
+        nuestros límites y permitir que el cuerpo descanse.
+    </p>
+</section>
+
+<section class="caja ia" id="tecnologia">
+    <h2>🤖 Uso responsable de la inteligencia artificial</h2>
+
+    <p>
+        La inteligencia artificial puede utilizarse para buscar información,
+        resolver dudas y aprender sobre diferentes temas. Sin embargo,
+        es importante comprobar que sus respuestas sean correctas,
+        porque puede cometer errores.
+    </p>
+
+    <p>
+        También debemos proteger nuestra huella digital. Esto significa
+        cuidar la información que compartimos en internet, evitar publicar
+        datos personales y pensar antes de subir fotografías o comentarios.
+    </p>
+
+    <p>
+        La tecnología debe utilizarse de manera responsable, respetando
+        la privacidad y los derechos de las demás personas.
+    </p>
+</section>
+
+</main>
+
+<footer class="pie">
+    <h3>Club Deportivo Digital</h3>
+    <p>El deporte nos une y la tecnología nos acompaña.</p>
+    <p>Actividad educativa de HTML y CSS.</p>
+</footer>
+
+</body>
+</html>
